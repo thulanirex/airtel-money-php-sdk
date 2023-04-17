@@ -1,0 +1,25 @@
+{
+    "name": "thulani/airtel-money-php-sdk",
+    "description": "Airtel Money SDK for collection, disbursement and remmittance.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thulani\\AirtelMoneyPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rex Thulani",
+            "email": "thulanirex@cmos-st.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
